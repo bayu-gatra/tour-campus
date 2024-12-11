@@ -1,0 +1,23 @@
+# ninja log v5
+1	4938	1733886366351139584	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	5bd4b6dcb736c87d
+78	533	1733886361989051684	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	330acdb658cd85d0
+38	2521	1733886363961091305	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	1ca091189fade701
+28	4129	1733886365561123596	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	548b79e4affd281c
+8	2932	1733886364353099208	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f56c5f5dcde71df2
+18	2604	1733886364031092714	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d261a41aa67b1c2f
+14	3361	1733886364799108203	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7bc4f9a0f21b10da
+4939	5174	1733886366607144770	/home/fmway/Tour Campus/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/734da2w6/obj/arm64-v8a/libgame.so	adf8f0c24db9c53a
+52	3242	1733886364675105702	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	616c5d87802ba017
+64	3023	1733886364463101426	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4ce9d3fc7fd6adc2
+534	754	1733886362199055897	/home/fmway/Tour Campus/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/734da2w6/obj/arm64-v8a/libswappywrapper.so	495964ec64c90122
+30	3209	1733887865111159306	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	330acdb658cd85d0
+19	3224	1733887865165160762	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	1ca091189fade701
+16	3365	1733887865305164538	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d261a41aa67b1c2f
+23	3390	1733887865333165293	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	616c5d87802ba017
+14	3400	1733887865345165617	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f56c5f5dcde71df2
+28	3571	1733887865517170255	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4ce9d3fc7fd6adc2
+14	3651	1733887865601172521	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7bc4f9a0f21b10da
+3217	3751	1733887865699175164	/home/fmway/Tour Campus/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/734da2w6/obj/arm64-v8a/libswappywrapper.so	495964ec64c90122
+17	3937	1733887865887180235	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	548b79e4affd281c
+13	4134	1733887866079185416	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	5bd4b6dcb736c87d
+4134	4314	1733887866263190381	/home/fmway/Tour Campus/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/734da2w6/obj/arm64-v8a/libgame.so	adf8f0c24db9c53a
