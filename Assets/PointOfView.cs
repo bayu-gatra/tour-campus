@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PointOfView : MonoBehaviour
 {
@@ -11,6 +12,13 @@ public class PointOfView : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Escape)) {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void OnDestroy()
+    {
+        SceneManager.LoadScene("final");
     }
 }

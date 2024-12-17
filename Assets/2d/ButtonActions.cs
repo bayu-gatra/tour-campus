@@ -7,14 +7,15 @@ public class ButtonActions : MonoBehaviour
 {
     public GameObject home, tour, feedback, submitting_feedback;
 
-    IEnumerator loadSceneAfterDelay(float waitbySecs){
-        yield return new WaitForSeconds(waitbySecs);
-    } 
-
     // Start is called before the first frame update
     void Start()
     {
         this.goToHome();
+        Screen.orientation = ScreenOrientation.Portrait;
+        foreach(ScreenOrientation x in System.Enum.GetValues(typeof(ScreenOrientation))) {
+            Debug.Log(x);
+        }
+        //
     }
 
     // Update is called once per frame
@@ -23,7 +24,7 @@ public class ButtonActions : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape)) {
             if (tour.activeSelf || feedback.activeSelf || submitting_feedback.activeSelf)
                 this.goToHome();
-            if (home.activeSelf)
+            else if (home.activeSelf)
                 Application.Quit();
         }
     }
@@ -57,6 +58,7 @@ public class ButtonActions : MonoBehaviour
     }
 
     public void goToRealTour() {
+      Screen.orientation = ScreenOrientation.LandscapeLeft;
       SceneManager.LoadScene("Init");
     }
 }
